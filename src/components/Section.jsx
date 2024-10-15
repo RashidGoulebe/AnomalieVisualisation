@@ -1,12 +1,13 @@
 import SectionSvg from "../assets/svg/SectionSvg";
 
 const Section = ({
-    className, 
-    id, 
-    crosses, 
-    crossesOffset, 
-    customPaddings, 
-    children}) => {
+  className,
+  id,
+  crosses,
+  crossesOffset,
+  customPaddings,
+  children,
+}) => {
   return (
     <div
       id={id}
@@ -33,9 +34,8 @@ const Section = ({
           <SectionSvg crossesOffset={crossesOffset} />
         </>
       )}
-
     </div>
-  )
-}
+  );
+};
 
-export default Section
+export default Section;
